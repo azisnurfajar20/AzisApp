@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">B-UTDI</string>
+    <string name="affirmation1">UTDI menciptakan mahasiswa yang bisa kerja sebelum lulus kuliah.</string>
+    <string name="affirmation2">Taekwondo UTDI Raih Emas di Kejurnas Sulawesi Tengah.</string>
+    <string name="affirmation3">Pendaftaran Mahasiswa Baru UTDI.</string>
+    <string name="affirmation4">Pelantikan Rektor UTDI Peroide 2021-2023.</string>
+    <string name="affirmation5">Penerimaan Mahasiswa Baru 2022-2023.</string>
+    <string name="affirmation6">UTDI Laksanakan Pelatihan IoT di SMK N 2 Magetan.</string>
+    <string name="affirmation7">UTDI Laksanakan Pelatihan IoT di SMK N 2 Ponorogo.</string>
+    <string name="affirmation8">Vaksinasi UTDI.</string>
+    <string name="affirmation9">UTDI melaksanakan Kuliah Tatap Muka Terbatas.</string>
+    <string name="affirmation10">UTDI Laksanakan Vaksinasi Booster Covid-19.</string>
+</resources>

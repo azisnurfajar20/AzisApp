@@ -1,0 +1,50 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    >
+    <!-- CODE TAMPILAN FORM SEARCH DAN COMBO BOX -->
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/searchView"
+            app:iconifiedByDefault="false"
+            app:queryHint="Cari Disini"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="13dp">
+
+            <CheckBox
+                android:id="@+id/ayam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Apakah anda sudah membaca Syarat dan Ketentuan ?" />
+
+        </LinearLayout>
+    <!-- AKHIR CODE TAMPILAN FORM SEARCH DAN COMBO BOX -->
+
+    <!-- TEMPLATE CODE PROGRAM UNTUK TAMPIL LIST DATA -->
+        <FrameLayout
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:context=".MainActivity">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="vertical"
+                app:layoutManager="LinearLayoutManager" />
+
+        </FrameLayout>
+    <!-- AKHIR TEMPLATE CODE PROGRAM UNTUK TAMPIL LIST DATA -->
+</LinearLayout>
